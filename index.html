@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>For My Bestie 💗</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section id="opening" class="page active dark">
+  <div>
+    <div class="heart">♡</div>
+    <h1>Hey, I made something<br>special for you...</h1>
+    <p>But first, turn on the light ✨</p>
+    <button class="btn" onclick="go('intro')">Turn on the light ✨</button>
+  </div>
+</section>
+
+<section id="intro" class="page">
+  <div class="card">
+    <div class="icon">💡</div>
+    <small>A LITTLE SURPRISE...</small>
+    <h2>I made something special for you 💗</h2>
+    <p>Because an ordinary birthday wish didn't feel enough for my favorite person.</p>
+    <button class="btn" onclick="birthday()">Continue ✨</button>
+  </div>
+</section>
+
+<section id="birthday" class="page birthday">
+  <div class="balloon one">🎈</div><div class="balloon two">🎈</div>
+  <div class="balloon three">🎈</div>
+  <div>
+    <small>TODAY IS ALL ABOUT YOU</small>
+    <h1>HAPPY<br><span>BIRTHDAY</span></h1>
+    <h2>[Meri Jan] 💗</h2>
+    <p>May your day be as beautiful and unforgettable as you are.</p>
+    <button class="btn" onclick="go('cake')">There's more 🎀</button>
+  </div>
+</section>
+
+<section id="cake" class="page">
+  <div class="card">
+    <small>MAKE A WISH...</small>
+    <h2>Your Birthday Cake 🎂</h2>
+    <button class="cake" onclick="cutCake()">🎂</button>
+    <p id="cakeText">Tap the cake to cut it! ✂️</p>
+    <button id="cakeNext" class="btn hidden" onclick="go('memories')">See our memories 📸</button>
+  </div>
+</section>
+
+<section id="memories" class="page">
+  <div class="wide card">
+    <small>A FEW MOMENTS TO KEEP</small>
+    <h2>Our Little Memories 📸</h2>
+    <div class="gallery">
+      <img src="images/photo1.jpeg" alt="Memory 1">
+      <img src="images/photo2.jpeg" alt="Memory 2">
+      <img src="images/photo3.jpeg" alt="Memory 3">
+      <img src="images/photo4.jpeg" alt="Memory 4">
+      <img src="images/photo5.jpeg" alt="Memory 5">
+      <img src="images/photo6.jpeg" alt="Memory 6">
+    </div>
+   <button class="btn" onclick="go('video')">Watch our memories 🎬</button>
+  </div>
+</section>
+<section id="video" class="page">
+  <div class="card video-card">
+    <div class="film-icon">🎬</div>
+    <small>OUR LITTLE MOVIE</small>
+    <h2>Our Memories 🎞️</h2>
+    <p>Some moments are too special to fit into pictures alone. 🤍</p>
+
+    <video controls playsinline class="memory-video">
+      <source src="video/memories.mp4" type="video/mp4">
+    </video>
+
+    <button class="btn" onclick="go('letter')">
+      Now, your letter 💌
+    </button>
+  </div>
+</section>
+
+<section id="letter" class="page letter">
+  <div class="paper">
+    <small>A LETTER FROM ME TO YOU</small>
+    <h2>For My Favorite Person 💌</h2>
+  <div class="letterText">
+
+  <p class="roman">
+    Happy birthday Mari jann 🫂💗
+  </p>
+
+  <p class="urdu">
+    اللہ پاک تجھے ہمیشہ خوش رکھے۔ ہمیشہ ایسے ہی منہ پھاڑ پھاڑ کر آپ ہنستی رہیں۔ آپ کے 32 دانت ایسے ہی دکھتے رہیں۔😁💗
+  </p>
+
+  <p class="urdu">
+    جس چیز کی بھی آپ خواہش کرو وہ آپ کو ملے، بہتر سے بہترین ہو کر ملے ✨ تیرا نصیب بے حد بے حد حسین ہو۔
+  </p>
+
+  <p class="roman">
+    Ek aisa person jo aap ne socha hua hai, jaisa aap chahti hain bilkul waisa copy paste 😂🫂
+  </p>
+
+  <p class="urdu">
+    آپ عمرے پہ جا رہی ہیں اور اس چیز کی مجھے بے انتہا خوشی ہے۔ آپ کا پاسپورٹ بنا ہے، آپ کا آدھا کام ہو چکا ہے اور باقی کام بھی جلدی جلدی سب کچھ ہو جائے۔ اور آپ اللہ پاک کا گھر جتنا جلدی ہو سکے آپ دیکھیں 🥹
+  </p>
+
+  <p class="urdu">
+    جو جو آپ نے سوچا ہے وہاں جا کر کرنے کا وہ سب کرو ✨🤍
+  </p>
+
+  <p class="urdu">
+    ہمیشہ ایسے ہی میرے ساتھ رہنا🫂💗 صرف ایک تو ہی ہے جو مجھے تلخ لہجے میں بھی سمجھائے یا پیار سے سمجھائے تو میں سمجھ جاتی ہوں، بنا غصہ کیے (تھوڑا سا کرتی ہوں) ورنہ اگر مجھے کوئی تلخ لہجے میں سمجھائے تو مجھے غصہ آ جاتا ہے۔
+  </p>
+
+  <p class="urdu">
+    صرف ایک تو ہی واحد اکلوتی ایسی انسان ہے جو مجھے ہر طریقے سے سمجھا سکتی ہے🌸 تو ہمیشہ میری first priority رہے گی🫂🩷 میری زندگی میں ہزار لوگ دوسرے کیوں نہ آ جائیں تو ہمیشہ ان سب میں پہلی رہے گی۔🩷
+  </p>
+
+  <p class="urdu">
+    تو میرے لیے بہت خاص ہے اور سب سے اچھی ہے۔ میرے ذہن میں سب سے پہلے آنے والی بندی کا نام زنیرہ ہے اور زنیرہ ہی رہے گا۔ 🫂💗
+  </p>
+
+  <p class="urdu">
+    یہ بات آپ اپنے ذہن میں ذہن نشین کر لیں، منتشا ادھوری ہے تیرے بنا 🫂😭
+  </p>
+
+  <p class="urdu">
+    کیونکہ جب جب مجھے تیری شدت سے ضرورت ہوتی ہے اور تو offline ہوتی ہے تو سب سے زیادہ یاد آ رہی ہوتی ہے کہ یہ کیوں online نہیں ہے، جلدی online ہوں میں کیا کروں، مجھے اپنے ہاتھ کٹے ہوئے محسوس ہوتے ہیں، تیری ہاں کے بغیر دوسرا step لینا بھی میرے لیے مشکل ہو رہا ہوتا ہے۔ 🙂
+  </p>
+<p class="roman">
+  Bas hamesha hamesha aise hi mere saath rehna 🫂💗
+  Aur ye jo Aswa, Haniya, Jaweria, Aruba ye sab aane-jaane wali hain,
+  <strong>I am the constant one</strong> — yaad rakhna, samajh gai madam AP?? 😭😂🩷
+</p>
+  <p class="roman">
+    Somehow my words can't explain how much I love you 🫂💗💗
+  </p>
+
+  <p class="roman">
+    But...........
+  </p>
+
+  <p class="roman love">
+    iloveeeeyouuuuuutheeemosttttttt 🫂😭💗
+  </p>
+
+</div>
+    <button class="btn" onclick="go('gifts')">I have 3 gifts for you 🎁</button>
+  </div>
+</section>
+
+<section id="gifts" class="page">
+  <div class="wide card">
+    <small>CHOOSE YOUR SURPRISE</small>
+    <h2> Gifts For You 🎁</h2>
+    <div class="gifts">
+      <button onclick="gift(1)">🎁<b>Gift One</b><small>A tiny handwritten note</small></button>
+     
+      <button onclick="gift(3)">🎁<b>Gift Two</b><small>Flowers for you 🌷</small></button>
+    </div>
+    <div id="giftBox" class="giftBox hidden"></div>
+    <button class="btn" onclick="go('final')">One last thing... 💗</button>
+  </div>
+</section>
+
+<section id="final" class="page final">
+  <div>
+    <div class="flower">🌷</div>
+    <small>FOR YOU, ALWAYS</small>
+    <h1>Happy Birthday,<br><span>Bestie! 💗</span></h1>
+    <p>And this is just one little reminder of how special you are.</p>
+    <p class="note">ILOVEEEYOUUTHEEEMOSTTTTTTT ✨</p>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
